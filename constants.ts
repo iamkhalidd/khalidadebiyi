@@ -1,0 +1,239 @@
+import { Experience, Project, SkillCategory, Service, Certification } from './types';
+
+export const KHALID_BIO = `
+You are Khalid. Your journey into technology didn’t start with code — it started with curiosity.
+You studied Accounting and Finance, which shaped how you think about structure, numbers, risk, and decision-making.
+Over time, that curiosity grew beyond finance into a desire to understand how systems actually work behind the scenes.
+
+Professional History:
+- Early experience in administration and finance at the Standard Organisation of Nigeria (SON) and a debt recovery company (taught discipline and accuracy).
+- Worked at IBEDC through PIPLL as a DTE, dealing with large-scale real-world infrastructure (taught reliability and responsibility).
+
+Technical Journey (Self-Taught):
+- Linux (Kali, Alpine), AWS, Cybersecurity, and Penetration Testing.
+- Python for automation and tool building.
+- Algorithmic Trading and Forex: leveraging finance background to design and test MT5 trading bots.
+
+Philosophy:
+- You don’t just study concepts; you build, test, break, and improve.
+- Focus: Cybersecurity, Software Development, Independent Digital Work.
+- Goal: Building secure, intentional systems that actually work.
+`;
+
+export const SERVICES_DATA: Service[] = [
+  {
+    id: 'cyber',
+    title: 'Penetration Testing & Security',
+    description: 'Vulnerability assessment and ethical hacking services using Kali Linux and standard industry tools. Focused on securing web applications and infrastructure.',
+    icon: 'Shield'
+  },
+  {
+    id: 'python',
+    title: 'Python Automation & Dev',
+    description: 'Custom Python scripting, backend development with Flask, and task automation. From simple scripts to full-scale application backends.',
+    icon: 'Code2'
+  },
+  {
+    id: 'forex',
+    title: 'Forex Analysis & Algo Trading',
+    description: 'Technical analysis for XAU/USD, BTC, ETH, and development of automated trading bots (Expert Advisors) for MetaTrader 5.',
+    icon: 'BarChart3'
+  },
+  {
+    id: 'design',
+    title: 'Digital Design & Branding',
+    description: 'Professional logo design, graphic design for digital products, and YouTube channel branding/automation assets.',
+    icon: 'PenTool'
+  },
+  {
+    id: 'cloud',
+    title: 'Cloud Infrastructure',
+    description: 'Setup and management of Cloud VMs (AWS), Linux server administration (Alpine/Ubuntu), and Docker containerization.',
+    icon: 'Cloud'
+  }
+];
+
+export const EXPERIENCE_DATA: Experience[] = [
+  {
+    id: '1',
+    role: 'DTE (Distribution Transformer Executive)',
+    company: 'PIPLL (IBEDC)',
+    period: 'Past',
+    description: 'Managed distribution infrastructure, technical operations, and ensured power stability in assigned districts.'
+  },
+  {
+    id: '2',
+    role: 'Accounts Department Staff',
+    company: 'Standards Organization of Nigeria (SON)',
+    period: 'Past',
+    description: 'Managed financial records, reconciliation, and administrative accounting duties ensuring regulatory compliance.'
+  },
+  {
+    id: '3',
+    role: 'Administrative Officer',
+    company: 'Debt Recovery Company',
+    period: 'Past',
+    description: 'Oversaw case file management, client communications, and general office administration.'
+  }
+];
+
+export const PROJECT_DATA: Project[] = [
+  {
+    id: 'lunarlogix',
+    title: 'LunarLogix Express',
+    description: 'Global logistics platform with real-time shipment tracking, instant quotes, and secure delivery solutions.',
+    longDescription: 'LunarLogix Express is a comprehensive logistics and shipping platform serving 220+ countries. Features include real-time package tracking, instant shipping quotes, and a professional admin dashboard for managing shipments.',
+    challenge: 'Businesses and individuals needed a reliable, transparent shipping solution with real-time visibility into their package locations and competitive pricing.',
+    solution: 'Built a full-stack logistics platform with live tracking integration, automated quote calculations, and a clean UI that instills trust and simplifies the shipping process.',
+    tags: ['React', 'Logistics', 'Full-Stack', 'SaaS'],
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Vercel'],
+    imageUrl: '/projects/lunarlogix.png',
+    category: 'project',
+    featured: true,
+    githubUrl: 'https://github.com/khalidadebiyi',
+    liveUrl: 'https://lunarlogix-express.vercel.app/'
+  },
+  {
+    id: 'rentalnest',
+    title: 'RentalNest',
+    description: 'A full-stack rental platform with booking flows, availability management, and responsive design.',
+    longDescription: 'RentalNest is a modern short-let and serviced apartment rental platform. I built the React frontend from scratch, designing intuitive listing pages, a real-time availability calendar, and a seamless booking experience.',
+    challenge: 'Small landlords struggled with managing multiple properties across different platforms, leading to double-bookings and lost revenue.',
+    solution: 'Built a centralized dashboard with real-time availability sync, automated booking confirmations, and a mobile-first UI that increased conversion rates.',
+    tags: ['React', 'Frontend', 'Real Estate', 'UI/UX'],
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Node.js'],
+    imageUrl: '/projects/rentalnest-1.png',
+    category: 'project',
+    featured: true,
+    githubUrl: 'https://github.com/khalidadebiyi',
+    liveUrl: '#'
+  },
+  {
+    id: 'neuroquant',
+    title: 'NeuroQuant',
+    description: 'AI-assisted trading analysis platform with forecasting, journaling, and risk management tools.',
+    longDescription: 'NeuroQuant is a SaaS platform that helps traders make data-driven decisions. It combines AI-powered chart analysis with a trading journal to encourage discipline and track performance over time.',
+    challenge: 'Traders often make emotional decisions, ignoring their own rules and lacking a structured way to review past trades.',
+    solution: 'Integrated Gemini AI for real-time trade analysis and built a comprehensive journaling system that tracks entries, exits, and emotional state for each trade.',
+    tags: ['React', 'Trading', 'AI Analysis', 'SaaS'],
+    techStack: ['React', 'TypeScript', 'Gemini API', 'Firebase', 'Recharts'],
+    imageUrl: '/projects/neuroquant-2.png',
+    category: 'project',
+    featured: true,
+    githubUrl: 'https://github.com/khalidadebiyi',
+    liveUrl: '#'
+  },
+  {
+    id: 'mt5-bots',
+    title: 'Algorithmic Trading & MT5 Bots',
+    description: 'Automated trading systems for BTC, ETH, and XAU/USD with risk-controlled execution.',
+    longDescription: 'A suite of Expert Advisors (EAs) for MetaTrader 5 that automate trading strategies. Implements technical indicators like RSI, Moving Averages, and MACD with sophisticated risk management.',
+    challenge: 'Manual trading is exhausting and prone to emotional errors, especially during volatile market conditions.',
+    solution: 'Developed automated bots with break-even protection, trailing stops, and position sizing algorithms that execute 24/7 without emotional interference.',
+    tags: ['Python', 'MQL5', 'Algo Trading', 'Automation'],
+    techStack: ['MQL5', 'Python', 'MetaTrader 5', 'Technical Analysis'],
+    imageUrl: '/projects/mt5-bots.png',
+    category: 'project',
+    featured: true,
+    githubUrl: 'https://github.com/khalidadebiyi',
+    liveUrl: '#'
+  },
+  {
+    id: 'security-experiments',
+    title: 'Security & API Experiments',
+    description: 'Python-based security tools for breach validation, secure requests, and API integration.',
+    longDescription: 'A collection of security-focused Python scripts including email breach checkers, secure HTTP request handlers, and API integration tools for threat intelligence.',
+    challenge: 'Many developers lack awareness of common security vulnerabilities in their applications.',
+    solution: 'Created reusable Python modules for input validation, secure API calls, and automated breach detection that can be integrated into any project.',
+    tags: ['Python', 'Cybersecurity', 'API', 'Data Validation'],
+    techStack: ['Python', 'Flask', 'REST APIs', 'Docker'],
+    imageUrl: '/projects/security-api.png',
+    category: 'project',
+    githubUrl: 'https://github.com/khalidadebiyi'
+  },
+  {
+    id: 'cake-store',
+    title: 'Cake & Pastry Store Web App',
+    description: 'E-commerce platform for a local bakery with product display and ordering system.',
+    longDescription: 'A business-focused web application designed for a local bakery, featuring beautiful product galleries, an intuitive ordering flow, and WhatsApp integration for order confirmations.',
+    challenge: 'Small bakeries struggle to showcase their products online and often lose customers to larger chains with better web presence.',
+    solution: 'Built a visually stunning, mobile-first storefront with easy product management and direct WhatsApp ordering integration.',
+    tags: ['React', 'E-commerce', 'Small Business', 'UI/UX'],
+    techStack: ['React', 'CSS', 'WhatsApp API'],
+    imageUrl: '/projects/cake-store.png',
+    category: 'project',
+    githubUrl: 'https://github.com/khalidadebiyi'
+  },
+  {
+    id: 'linux-automation',
+    title: 'Linux & Automation Scripts',
+    description: 'Python utility scripts for task automation and security testing on Linux.',
+    longDescription: 'A growing collection of Python and Bash scripts for automating repetitive tasks, data cleaning, and security testing within Kali and Alpine Linux environments.',
+    challenge: 'Repetitive system administration tasks consume valuable time that could be spent on higher-value work.',
+    solution: 'Building a personal toolkit of automation scripts that handle common tasks like log rotation, backup, and security scanning.',
+    tags: ['Linux', 'Bash', 'Python', 'Automation'],
+    techStack: ['Python', 'Bash', 'Linux', 'Docker'],
+    imageUrl: '/projects/linux-automation.png',
+    category: 'wip',
+    githubUrl: 'https://github.com/khalidadebiyi'
+  },
+  {
+    id: 'ai-toolkit',
+    title: 'AI-Powered Solopreneur Toolkit',
+    description: 'Digital product helping solo founders leverage AI for productivity and marketing.',
+    longDescription: 'A curated collection of AI prompts, workflows, and templates designed specifically for solo entrepreneurs to automate marketing, content creation, and business operations.',
+    tags: ['Digital Product', 'AI', 'Productivity'],
+    techStack: ['AI Prompts', 'Notion', 'Automation'],
+    imageUrl: '/projects/ai-toolkit.png',
+    category: 'product',
+    liveUrl: '#'
+  },
+  {
+    id: 'forex-toolkit',
+    title: 'Forex Starter Toolkit',
+    description: 'Educational resource for beginner traders on market dynamics and risk management.',
+    longDescription: 'A comprehensive educational package for beginner traders, covering technical analysis basics, risk management principles, and trading psychology.',
+    tags: ['Education', 'Finance', 'Digital Product'],
+    techStack: ['Educational Content', 'PDF', 'Video'],
+    imageUrl: '/projects/forex-toolkit.png',
+    category: 'product',
+    liveUrl: '#'
+  }
+];
+
+export const SKILLS_DATA = [
+  { name: 'Kali Linux', category: SkillCategory.CYBERSECURITY, value: 85 },
+  { name: 'Python', category: SkillCategory.DEVELOPMENT, value: 80 },
+  { name: 'AWS/Cloud', category: SkillCategory.CLOUD, value: 65 },
+  { name: 'React/Next.js', category: SkillCategory.DEVELOPMENT, value: 75 },
+  { name: 'Forex Analysis', category: SkillCategory.TRADING, value: 95 },
+  { name: 'Logo Design', category: SkillCategory.DESIGN, value: 80 },
+];
+
+// Add your certifications here - replace placeholders with your actual credentials
+export const CERTIFICATIONS_DATA: Certification[] = [
+  {
+    id: 'cert-1',
+    name: 'CompTIA Security+',
+    issuer: 'CompTIA',
+    date: 'Expected 2026',
+    category: 'cybersecurity',
+    // credentialUrl: 'https://www.credly.com/...',
+    // badgeUrl: 'https://...'
+  },
+  {
+    id: 'cert-2',
+    name: 'Google Cybersecurity Certificate',
+    issuer: 'Google',
+    date: 'In Progress',
+    category: 'cybersecurity',
+  },
+  {
+    id: 'cert-3',
+    name: 'AWS Cloud Practitioner',
+    issuer: 'Amazon Web Services',
+    date: 'Expected 2026',
+    category: 'cloud',
+  },
+  // Add more certifications as needed
+];
