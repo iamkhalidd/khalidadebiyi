@@ -90,7 +90,7 @@ export const PROJECT_DATA: Project[] = [
     imageUrl: '/projects/lunarlogix.png',
     category: 'project',
     featured: true,
-    githubUrl: 'https://github.com/iamkhalidd',
+    githubUrl: 'https://github.com/iamkhalidd/lunarlogix-express',
     liveUrl: 'https://lunarlogix-express.vercel.app/'
   },
   {
@@ -105,7 +105,7 @@ export const PROJECT_DATA: Project[] = [
     imageUrl: '/projects/rentalnest-1.png',
     category: 'project',
     featured: true,
-    githubUrl: 'https://github.com/iamkhalidd',
+    githubUrl: 'https://github.com/iamkhalidd/RentalNest',
     liveUrl: '#'
   },
   {
@@ -120,7 +120,7 @@ export const PROJECT_DATA: Project[] = [
     imageUrl: '/projects/neuroquant-2.png',
     category: 'project',
     featured: true,
-    githubUrl: 'https://github.com/iamkhalidd',
+    githubUrl: 'https://github.com/iamkhalidd/neuroquant-pro',
     liveUrl: '#'
   },
   {
@@ -162,7 +162,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['React', 'CSS', 'WhatsApp API'],
     imageUrl: '/projects/cake-store.png',
     category: 'project',
-    githubUrl: 'https://github.com/iamkhalidd'
+    githubUrl: 'https://github.com/iamkhalidd/CyberSweet'
   },
   {
     id: 'linux-automation',
@@ -198,6 +198,59 @@ export const PROJECT_DATA: Project[] = [
     imageUrl: '/projects/forex-toolkit.png',
     category: 'product',
     liveUrl: '#'
+  },
+  {
+    id: 'network-anomaly',
+    title: 'Network Anomaly Detection System',
+    description: 'ML-powered network security tool that detects DDoS attacks, port scans, and suspicious traffic patterns in real-time.',
+    longDescription: 'A Python-based network security system that uses machine learning to analyze network traffic and detect anomalies. Features real-time packet inspection, traffic visualization, and automated alerting for security threats.',
+    challenge: 'Traditional network monitoring tools generate too many false positives and miss sophisticated attack patterns.',
+    solution: 'Implemented machine learning models trained on network traffic data to accurately identify DDoS attempts, port scans, and other malicious activities with high precision.',
+    tags: ['Python', 'Cybersecurity', 'Machine Learning', 'Network Security'],
+    techStack: ['Python', 'Scikit-learn', 'Pandas', 'Scapy', 'NetworkX'],
+    imageUrl: '/projects/network-anomaly.png',
+    category: 'project',
+    featured: true,
+    githubUrl: 'https://github.com/iamkhalidd/network_anomaly_detection_system'
+  },
+  {
+    id: 'phishing-detector',
+    title: 'Email Phishing Detector',
+    description: 'AI-powered email analysis tool that identifies phishing attempts using NLP and pattern recognition.',
+    longDescription: 'A sophisticated Python application that analyzes email content, sender information, and embedded links to detect phishing attempts. Uses natural language processing to identify social engineering patterns.',
+    challenge: 'Phishing emails are becoming increasingly sophisticated, bypassing traditional spam filters and tricking users.',
+    solution: 'Built an ML classifier that analyzes sender verification, URL patterns, and email content with 89%+ confidence in detecting social engineering attacks.',
+    tags: ['Python', 'Cybersecurity', 'NLP', 'Email Security'],
+    techStack: ['Python', 'NLTK', 'Scikit-learn', 'BeautifulSoup', 'DNS Libraries'],
+    imageUrl: '/projects/phishing-detector.png',
+    category: 'project',
+    githubUrl: 'https://github.com/iamkhalidd/email-phishing-detector'
+  },
+  {
+    id: 'fraud-detection',
+    title: 'Real-Time Fraud Detection System',
+    description: 'Financial transaction monitoring system with ML-based anomaly detection and risk scoring.',
+    longDescription: 'A real-time fraud detection platform that monitors financial transactions, calculates risk scores, and flags suspicious activities. Features geographic fraud mapping and timeline analysis.',
+    challenge: 'Financial fraud causes billions in losses annually, and manual review processes cannot scale to handle transaction volumes.',
+    solution: 'Developed an automated fraud detection pipeline that analyzes transaction patterns, geographic anomalies, and behavioral indicators in real-time.',
+    tags: ['Python', 'Fintech', 'Machine Learning', 'Security'],
+    techStack: ['Python', 'Pandas', 'Scikit-learn', 'Plotly', 'FastAPI'],
+    imageUrl: '/projects/fraud-detection.png',
+    category: 'project',
+    githubUrl: 'https://github.com/iamkhalidd/real_time_fraud_system'
+  },
+  {
+    id: 'eventgo',
+    title: 'EventGO Platform',
+    description: 'Modern event management platform with ticketing, attendee management, and QR code check-in.',
+    longDescription: 'A full-stack event management solution featuring event creation, ticket sales analytics, attendee management, and QR-based check-in systems for seamless event operations.',
+    challenge: 'Event organizers struggle with fragmented tools for ticketing, attendee tracking, and day-of-event check-in.',
+    solution: 'Built an all-in-one platform that handles the entire event lifecycle from creation to post-event analytics with real-time attendee insights.',
+    tags: ['React', 'Full-Stack', 'Events', 'SaaS'],
+    techStack: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'QR Code API'],
+    imageUrl: '/projects/eventgo.png',
+    category: 'project',
+    githubUrl: 'https://github.com/iamkhalidd/EVENTGO'
   }
 ];
 
