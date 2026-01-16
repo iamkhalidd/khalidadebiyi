@@ -90,7 +90,7 @@ export const PROJECT_DATA: Project[] = [
     imageUrl: '/projects/lunarlogix.png',
     category: 'project',
     featured: true,
-    githubUrl: 'https://github.com/khalidadebiyi',
+    githubUrl: 'https://github.com/iamkhalidd',
     liveUrl: 'https://lunarlogix-express.vercel.app/'
   },
   {
@@ -105,7 +105,7 @@ export const PROJECT_DATA: Project[] = [
     imageUrl: '/projects/rentalnest-1.png',
     category: 'project',
     featured: true,
-    githubUrl: 'https://github.com/khalidadebiyi',
+    githubUrl: 'https://github.com/iamkhalidd',
     liveUrl: '#'
   },
   {
@@ -120,7 +120,7 @@ export const PROJECT_DATA: Project[] = [
     imageUrl: '/projects/neuroquant-2.png',
     category: 'project',
     featured: true,
-    githubUrl: 'https://github.com/khalidadebiyi',
+    githubUrl: 'https://github.com/iamkhalidd',
     liveUrl: '#'
   },
   {
@@ -135,7 +135,7 @@ export const PROJECT_DATA: Project[] = [
     imageUrl: '/projects/mt5-bots.png',
     category: 'project',
     featured: true,
-    githubUrl: 'https://github.com/khalidadebiyi',
+    githubUrl: 'https://github.com/iamkhalidd',
     liveUrl: '#'
   },
   {
@@ -149,7 +149,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['Python', 'Flask', 'REST APIs', 'Docker'],
     imageUrl: '/projects/security-api.png',
     category: 'project',
-    githubUrl: 'https://github.com/khalidadebiyi'
+    githubUrl: 'https://github.com/iamkhalidd'
   },
   {
     id: 'cake-store',
@@ -162,7 +162,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['React', 'CSS', 'WhatsApp API'],
     imageUrl: '/projects/cake-store.png',
     category: 'project',
-    githubUrl: 'https://github.com/khalidadebiyi'
+    githubUrl: 'https://github.com/iamkhalidd'
   },
   {
     id: 'linux-automation',
@@ -175,7 +175,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['Python', 'Bash', 'Linux', 'Docker'],
     imageUrl: '/projects/linux-automation.png',
     category: 'wip',
-    githubUrl: 'https://github.com/khalidadebiyi'
+    githubUrl: 'https://github.com/iamkhalidd'
   },
   {
     id: 'ai-toolkit',

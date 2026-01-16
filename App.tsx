@@ -650,13 +650,21 @@ const App: React.FC = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
               <a href="mailto:khalidadebiyi@gmail.com" className="flex flex-col items-center p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-cyber-green/50">
                 <div className="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Mail className="text-cyber-green" />
                 </div>
                 <span className="text-sm font-medium text-gray-300 group-hover:text-white">Email Me</span>
                 <span className="text-xs text-gray-500 mt-1">khalidadebiyi@gmail.com</span>
+              </a>
+
+              <a href="https://github.com/iamkhalidd" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-gray-500/50">
+                <div className="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Github className="text-gray-300" />
+                </div>
+                <span className="text-sm font-medium text-gray-300 group-hover:text-white">GitHub</span>
+                <span className="text-xs text-gray-500 mt-1">View My Code</span>
               </a>
 
               <a href="https://www.linkedin.com/in/khalid-adebiyi-a99157174" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-blue-500/50">
