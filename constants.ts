@@ -251,6 +251,21 @@ export const PROJECT_DATA: Project[] = [
     imageUrl: '/projects/eventgo.png',
     category: 'project',
     githubUrl: 'https://github.com/iamkhalidd/EVENTGO'
+  },
+  {
+    id: 'atelier-anj',
+    title: 'Atelier ANJ - Architectural Workflow',
+    description: 'Premium architecture firm website with client portal, project workflow management, and curated portfolio showcase.',
+    longDescription: 'A sophisticated digital platform for an architectural practice featuring a stunning portfolio display, transparent project workflow system (Vision → Design → Development → Execution), and client portal for project tracking and approvals.',
+    challenge: 'Architectural firms need to showcase their work beautifully while giving clients visibility into project progress without opaque timelines or hidden costs.',
+    solution: 'Built a premium website with elegant design aesthetics, curated project galleries, and a 4-step workflow system that provides complete transparency from brief to execution.',
+    tags: ['React', 'Architecture', 'Full-Stack', 'Client Portal'],
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Vercel'],
+    imageUrl: '/projects/atelier-anj.png',
+    category: 'project',
+    featured: true,
+    githubUrl: 'https://github.com/iamkhalidd/atelier-anj---architectural-workflow--1-',
+    liveUrl: 'https://atelier-anj.vercel.app/'
   }
 ];
 
