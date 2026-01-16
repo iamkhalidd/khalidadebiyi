@@ -650,34 +650,34 @@ const App: React.FC = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-              <a href="mailto:khalidadebiyi@gmail.com" className="flex flex-col items-center p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-cyber-green/50">
-                <div className="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Mail className="text-cyber-green" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-12">
+              <a href="mailto:khalidadebiyi@gmail.com" className="flex flex-col items-center p-4 md:p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-cyber-green/50">
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gray-900 flex items-center justify-center mb-3 md:mb-4 group-hover:scale-110 transition-transform">
+                  <Mail className="text-cyber-green w-5 h-5 md:w-6 md:h-6" />
                 </div>
                 <span className="text-sm font-medium text-gray-300 group-hover:text-white">Email Me</span>
-                <span className="text-xs text-gray-500 mt-1">khalidadebiyi@gmail.com</span>
+                <span className="text-xs text-gray-500 mt-1 truncate max-w-full">khalidadebiyi@gmail.com</span>
               </a>
 
-              <a href="https://github.com/iamkhalidd" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-gray-500/50">
-                <div className="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Github className="text-gray-300" />
+              <a href="https://github.com/iamkhalidd" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 md:p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-gray-500/50">
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gray-900 flex items-center justify-center mb-3 md:mb-4 group-hover:scale-110 transition-transform">
+                  <Github className="text-gray-300 w-5 h-5 md:w-6 md:h-6" />
                 </div>
                 <span className="text-sm font-medium text-gray-300 group-hover:text-white">GitHub</span>
                 <span className="text-xs text-gray-500 mt-1">View My Code</span>
               </a>
 
-              <a href="https://www.linkedin.com/in/khalid-adebiyi-a99157174" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-blue-500/50">
-                <div className="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Linkedin className="text-blue-500" />
+              <a href="https://www.linkedin.com/in/khalid-adebiyi-a99157174" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 md:p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-blue-500/50">
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gray-900 flex items-center justify-center mb-3 md:mb-4 group-hover:scale-110 transition-transform">
+                  <Linkedin className="text-blue-500 w-5 h-5 md:w-6 md:h-6" />
                 </div>
                 <span className="text-sm font-medium text-gray-300 group-hover:text-white">LinkedIn</span>
                 <span className="text-xs text-gray-500 mt-1">Professional Profile</span>
               </a>
 
-              <a href="https://www.upwork.com/freelancers/~010dfac3d251b1a570" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-purple-500/50">
-                <div className="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Briefcase className="text-purple-500" />
+              <a href="https://www.upwork.com/freelancers/~010dfac3d251b1a570" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-4 md:p-6 bg-gray-800/50 rounded-xl hover:bg-gray-800 transition-all group border border-transparent hover:border-purple-500/50">
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gray-900 flex items-center justify-center mb-3 md:mb-4 group-hover:scale-110 transition-transform">
+                  <Briefcase className="text-purple-500 w-5 h-5 md:w-6 md:h-6" />
                 </div>
                 <span className="text-sm font-medium text-gray-300 group-hover:text-white">Upwork</span>
                 <span className="text-xs text-gray-500 mt-1">Hire Me Now</span>
