@@ -742,7 +742,7 @@ const App: React.FC = () => {
           <footer className="text-gray-600 text-sm text-center mt-16">
             <p>© {new Date().getFullYear()} Khalid. All rights reserved.</p>
             <p className="mt-2 flex items-center justify-center gap-1">
-              Built with <Code2 size={12} /> React, Tailwind & Gemini AI.
+              Built with <Code2 size={12} /> React & Tailwind CSS.
             </p>
           </footer>
         </div>
