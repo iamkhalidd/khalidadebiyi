@@ -22,33 +22,39 @@ Philosophy:
 
 export const SERVICES_DATA: Service[] = [
   {
-    id: 'cyber',
-    title: 'Penetration Testing & Security',
-    description: 'Vulnerability assessment and ethical hacking services using Kali Linux and standard industry tools. Focused on securing web applications and infrastructure.',
+    id: 'security',
+    title: 'Cybersecurity & Digital Forensics',
+    description: 'Penetration testing, vulnerability assessments, and forensic investigations using custom Python tools. From network anomaly detection to phishing analysis and incident response.',
     icon: 'Shield'
   },
   {
-    id: 'python',
-    title: 'Python Automation & Dev',
-    description: 'Custom Python scripting, backend development with Flask, and task automation. From simple scripts to full-scale application backends.',
-    icon: 'Code2'
+    id: 'fullstack',
+    title: 'Full-Stack Web Development',
+    description: 'Modern web applications built with React, TypeScript, and Node.js. E-commerce platforms, client portals, booking systems, and logistics dashboards with responsive design.',
+    icon: 'Layers'
   },
   {
-    id: 'forex',
-    title: 'Forex Analysis & Algo Trading',
-    description: 'Technical analysis for XAU/USD, BTC, ETH, and development of automated trading bots (Expert Advisors) for MetaTrader 5.',
+    id: 'python-tools',
+    title: 'Python Security Tools & Automation',
+    description: 'Custom CLI tools for security professionals: forensic toolkits, fraud detection systems, log analyzers, and automation scripts that save hours of manual work.',
+    icon: 'Terminal'
+  },
+  {
+    id: 'trading',
+    title: 'Trading Systems & FinTech',
+    description: 'Algorithmic trading bots for MT5, AI-powered market analysis platforms, real-time fraud detection, and financial risk management tools.',
     icon: 'BarChart3'
   },
   {
-    id: 'design',
-    title: 'Digital Design & Branding',
-    description: 'Professional logo design, graphic design for digital products, and YouTube channel branding/automation assets.',
-    icon: 'PenTool'
+    id: 'saas',
+    title: 'SaaS Product Development',
+    description: 'End-to-end SaaS solutions: event management platforms, rental systems, logistics tracking, and architecture workflow tools with user authentication and admin dashboards.',
+    icon: 'Cpu'
   },
   {
     id: 'cloud',
-    title: 'Cloud Infrastructure',
-    description: 'Setup and management of Cloud VMs (AWS), Linux server administration (Alpine/Ubuntu), and Docker containerization.',
+    title: 'Cloud & DevOps',
+    description: 'AWS infrastructure setup, Docker containerization, Firebase integration, Vercel deployments, and Linux server administration (Kali, Alpine, Ubuntu).',
     icon: 'Cloud'
   }
 ];
