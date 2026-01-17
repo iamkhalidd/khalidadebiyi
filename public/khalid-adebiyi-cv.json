@@ -1,0 +1,217 @@
+{
+    "personalInfo": {
+        "name": "Khalid Adebiyi",
+        "title": "Cybersecurity Specialist | Full-Stack Developer | Trading Systems Engineer",
+        "email": "khalidadebiyi@gmail.com",
+        "location": "Nigeria",
+        "portfolio": "https://khalidadebiyi.vercel.app",
+        "github": "https://github.com/iamkhalidd",
+        "linkedin": "https://www.linkedin.com/in/khalid-adebiyi-a99157174",
+        "upwork": "https://www.upwork.com/freelancers/~010dfac3d251b1a570"
+    },
+    "summary": "Versatile digital professional mastering the intersection of Cybersecurity, Python Development, and Financial Markets. From Kali Linux to AWS, I build and secure the digital future. Self-taught technologist with a foundation in Accounting and Finance, bringing structured thinking to complex technical challenges.",
+    "skills": {
+        "cybersecurity": [
+            "Kali Linux",
+            "Penetration Testing",
+            "Vulnerability Assessment",
+            "Network Security",
+            "Email Phishing Detection",
+            "Fraud Detection Systems"
+        ],
+        "development": [
+            "Python",
+            "React",
+            "TypeScript",
+            "Node.js",
+            "Flask",
+            "REST APIs"
+        ],
+        "cloud": [
+            "AWS",
+            "Docker",
+            "Linux (Alpine/Ubuntu)",
+            "Vercel",
+            "Firebase"
+        ],
+        "trading": [
+            "Algorithmic Trading",
+            "MQL5",
+            "MetaTrader 5",
+            "Technical Analysis",
+            "Risk Management"
+        ],
+        "design": [
+            "Logo Design",
+            "UI/UX",
+            "Digital Branding",
+            "Tailwind CSS"
+        ]
+    },
+    "certifications": [
+        "Introduction to Cybersecurity - Cisco",
+        "Cybersecurity Essentials - Cisco",
+        "Endpoint Security - Cisco",
+        "Network Defense - Cisco",
+        "Cyber Threat Management - Cisco",
+        "Ethical Hacker - Cisco",
+        "Junior Cybersecurity Analyst Career Path - Cisco",
+        "Network Technician Career Path - Cisco"
+    ],
+    "experience": [
+        {
+            "role": "Freelance Developer & Security Consultant",
+            "company": "Self-Employed / Upwork",
+            "period": "2023 - Present",
+            "responsibilities": [
+                "Develop full-stack web applications using React, TypeScript, and Node.js",
+                "Build Python-based cybersecurity tools for network anomaly detection and phishing analysis",
+                "Create automated trading systems for cryptocurrency and forex markets",
+                "Design and deploy cloud infrastructure on AWS and Vercel"
+            ]
+        },
+        {
+            "role": "Distribution Transformer Executive (DTE)",
+            "company": "PIPLL (IBEDC)",
+            "period": "Previous",
+            "responsibilities": [
+                "Managed distribution infrastructure and technical operations",
+                "Ensured power stability in assigned districts",
+                "Developed understanding of large-scale real-world infrastructure systems"
+            ]
+        },
+        {
+            "role": "Accounts Department Staff",
+            "company": "Standards Organization of Nigeria (SON)",
+            "period": "Previous",
+            "responsibilities": [
+                "Managed financial records and reconciliation",
+                "Handled administrative accounting duties",
+                "Ensured regulatory compliance in financial processes"
+            ]
+        },
+        {
+            "role": "Administrative Officer",
+            "company": "Debt Recovery Company",
+            "period": "Previous",
+            "responsibilities": [
+                "Oversaw case file management and client communications",
+                "Managed general office administration",
+                "Developed strong organizational and communication skills"
+            ]
+        }
+    ],
+    "education": {
+        "degree": "Accounting and Finance",
+        "focus": "Self-taught in Technology: Linux, Cybersecurity, Python, Cloud Computing, Algorithmic Trading"
+    },
+    "projects": [
+        {
+            "name": "Network Anomaly Detection System",
+            "description": "ML-powered network security tool that detects DDoS attacks, port scans, and suspicious traffic patterns in real-time",
+            "technologies": [
+                "Python",
+                "Scikit-learn",
+                "Pandas",
+                "Scapy"
+            ],
+            "github": "https://github.com/iamkhalidd/network_anomaly_detection_system"
+        },
+        {
+            "name": "Email Phishing Detector",
+            "description": "AI-powered email analysis tool with 89%+ confidence in detecting social engineering attacks",
+            "technologies": [
+                "Python",
+                "NLTK",
+                "Scikit-learn",
+                "BeautifulSoup"
+            ],
+            "github": "https://github.com/iamkhalidd/email-phishing-detector"
+        },
+        {
+            "name": "Real-Time Fraud Detection System",
+            "description": "Financial transaction monitoring with ML-based anomaly detection and risk scoring",
+            "technologies": [
+                "Python",
+                "Pandas",
+                "Scikit-learn",
+                "FastAPI"
+            ],
+            "github": "https://github.com/iamkhalidd/real_time_fraud_system"
+        },
+        {
+            "name": "LunarLogix Express",
+            "description": "Global logistics platform with real-time shipment tracking serving 220+ countries",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Firebase",
+                "Tailwind CSS"
+            ],
+            "liveUrl": "https://lunarlogix-express.vercel.app/",
+            "github": "https://github.com/iamkhalidd/lunarlogix-express"
+        },
+        {
+            "name": "NeuroQuant Pro",
+            "description": "AI-assisted trading analysis platform with forecasting, journaling, and risk management",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Gemini API",
+                "Firebase"
+            ],
+            "github": "https://github.com/iamkhalidd/neuroquant-pro"
+        },
+        {
+            "name": "Atelier ANJ",
+            "description": "Premium architecture firm website with client portal and project workflow management",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Firebase",
+                "Tailwind CSS"
+            ],
+            "liveUrl": "https://atelier-anj.vercel.app/",
+            "github": "https://github.com/iamkhalidd/atelier-anj---architectural-workflow--1-"
+        },
+        {
+            "name": "EventGO Platform",
+            "description": "Event management platform with ticketing, attendee management, and QR code check-in",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Node.js",
+                "PostgreSQL"
+            ],
+            "github": "https://github.com/iamkhalidd/EVENTGO"
+        },
+        {
+            "name": "RentalNest",
+            "description": "Full-stack rental platform with booking flows and availability management",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Firebase",
+                "Node.js"
+            ],
+            "github": "https://github.com/iamkhalidd/RentalNest"
+        },
+        {
+            "name": "Algorithmic Trading Bots",
+            "description": "Automated trading systems for BTC, ETH, and XAU/USD with risk-controlled execution",
+            "technologies": [
+                "MQL5",
+                "Python",
+                "MetaTrader 5"
+            ]
+        }
+    ],
+    "services": [
+        "Penetration Testing & Security Assessments",
+        "Python Automation & Backend Development",
+        "Forex/Crypto Analysis & Algo Trading Bot Development",
+        "Full-Stack Web Application Development",
+        "Cloud Infrastructure Setup (AWS, Docker)",
+        "Digital Design & Branding"
+    ]
+}
