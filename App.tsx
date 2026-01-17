@@ -409,9 +409,9 @@ const App: React.FC = () => {
                   <div className="p-2 bg-blue-500/10 rounded-lg"><Code2 size={20} className="text-blue-400" /></div> Development
                 </div>
                 <ul className="space-y-2.5 text-sm text-gray-400">
-                  <li className="flex items-center justify-between"><span>Python (Scripting/Auto)</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Adv</span></li>
-                  <li className="flex items-center justify-between"><span>Next.js & React</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Int</span></li>
-                  <li className="flex items-center justify-between"><span>Flask & Docker</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Int</span></li>
+                  <li className="flex items-center justify-between"><span>Python</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Pro</span></li>
+                  <li className="flex items-center justify-between"><span>React / TypeScript</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Adv</span></li>
+                  <li className="flex items-center justify-between"><span>Node.js / REST APIs</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Int</span></li>
                 </ul>
               </div>
 
@@ -420,9 +420,9 @@ const App: React.FC = () => {
                   <div className="p-2 bg-green-500/10 rounded-lg"><Shield size={20} className="text-green-400" /></div> Security
                 </div>
                 <ul className="space-y-2.5 text-sm text-gray-400">
-                  <li className="flex items-center justify-between"><span>Kali Linux</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Pro</span></li>
-                  <li className="flex items-center justify-between"><span>Alpine Linux</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Int</span></li>
-                  <li className="flex items-center justify-between"><span>AWS Cloud VMs</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Int</span></li>
+                  <li className="flex items-center justify-between"><span>Penetration Testing</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Pro</span></li>
+                  <li className="flex items-center justify-between"><span>Digital Forensics</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Adv</span></li>
+                  <li className="flex items-center justify-between"><span>Network Security</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Adv</span></li>
                 </ul>
               </div>
 
@@ -431,20 +431,20 @@ const App: React.FC = () => {
                   <div className="p-2 bg-yellow-500/10 rounded-lg"><BarChart3 size={20} className="text-yellow-400" /></div> Trading
                 </div>
                 <ul className="space-y-2.5 text-sm text-gray-400">
-                  <li className="flex items-center justify-between"><span>Tech Analysis</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Exp</span></li>
-                  <li className="flex items-center justify-between"><span>MQL5 (MT5 Bots)</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Int</span></li>
-                  <li className="flex items-center justify-between"><span>Scalping Strategies</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Pro</span></li>
+                  <li className="flex items-center justify-between"><span>Technical Analysis</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Pro</span></li>
+                  <li className="flex items-center justify-between"><span>MQL5 / MT5 Bots</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Adv</span></li>
+                  <li className="flex items-center justify-between"><span>Algo Trading</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Adv</span></li>
                 </ul>
               </div>
 
               <div className="p-5 rounded-xl bg-[#161b22] border border-gray-800 hover:border-cyber-green/30 transition-colors">
                 <div className="flex items-center gap-3 text-white font-bold mb-4">
-                  <div className="p-2 bg-purple-500/10 rounded-lg"><Layers size={20} className="text-purple-400" /></div> Creative
+                  <div className="p-2 bg-purple-500/10 rounded-lg"><Cloud size={20} className="text-purple-400" /></div> Cloud & Tools
                 </div>
                 <ul className="space-y-2.5 text-sm text-gray-400">
-                  <li className="flex items-center justify-between"><span>Logo Design</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Pro</span></li>
-                  <li className="flex items-center justify-between"><span>YouTube Automation</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Int</span></li>
-                  <li className="flex items-center justify-between"><span>Digital Products</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Int</span></li>
+                  <li className="flex items-center justify-between"><span>AWS / Docker</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Int</span></li>
+                  <li className="flex items-center justify-between"><span>Firebase / Vercel</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Pro</span></li>
+                  <li className="flex items-center justify-between"><span>Linux Admin</span> <span className="text-xs bg-gray-800 px-2 py-0.5 rounded text-gray-300">Pro</span></li>
                 </ul>
               </div>
             </div>
