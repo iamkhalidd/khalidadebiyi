@@ -290,12 +290,28 @@ export const PROJECT_DATA: Project[] = [
 ];
 
 export const SKILLS_DATA = [
-  { name: 'Kali Linux', category: SkillCategory.CYBERSECURITY, value: 85 },
-  { name: 'Python', category: SkillCategory.DEVELOPMENT, value: 80 },
-  { name: 'AWS/Cloud', category: SkillCategory.CLOUD, value: 65 },
-  { name: 'React/Next.js', category: SkillCategory.DEVELOPMENT, value: 75 },
-  { name: 'Forex Analysis', category: SkillCategory.TRADING, value: 95 },
-  { name: 'Logo Design', category: SkillCategory.DESIGN, value: 80 },
+  // Cybersecurity
+  { name: 'Kali Linux', category: SkillCategory.CYBERSECURITY, value: 90 },
+  { name: 'Penetration Testing', category: SkillCategory.CYBERSECURITY, value: 85 },
+  { name: 'Digital Forensics', category: SkillCategory.CYBERSECURITY, value: 80 },
+  { name: 'Network Security', category: SkillCategory.CYBERSECURITY, value: 85 },
+  // Development
+  { name: 'Python', category: SkillCategory.DEVELOPMENT, value: 90 },
+  { name: 'React / TypeScript', category: SkillCategory.DEVELOPMENT, value: 85 },
+  { name: 'Node.js', category: SkillCategory.DEVELOPMENT, value: 75 },
+  { name: 'REST APIs', category: SkillCategory.DEVELOPMENT, value: 80 },
+  // Cloud & DevOps
+  { name: 'AWS', category: SkillCategory.CLOUD, value: 70 },
+  { name: 'Docker', category: SkillCategory.CLOUD, value: 75 },
+  { name: 'Firebase', category: SkillCategory.CLOUD, value: 85 },
+  { name: 'Linux Admin', category: SkillCategory.CLOUD, value: 85 },
+  // Trading & FinTech
+  { name: 'MQL5 / MT5', category: SkillCategory.TRADING, value: 85 },
+  { name: 'Technical Analysis', category: SkillCategory.TRADING, value: 90 },
+  { name: 'Algo Trading', category: SkillCategory.TRADING, value: 80 },
+  // Design
+  { name: 'UI/UX Design', category: SkillCategory.DESIGN, value: 75 },
+  { name: 'Tailwind CSS', category: SkillCategory.DESIGN, value: 90 },
 ];
 
 // Add your certifications here - replace placeholders with your actual credentials
