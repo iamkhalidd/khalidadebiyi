@@ -1,7 +1,10 @@
 # KHALID ADEBIYI
 **Cybersecurity Specialist | Full-Stack Developer | Trading Systems Engineer**
 
-📧 khalidadebiyi@gmail.com | 🌐 [Portfolio](https://khalidadebiyi.vercel.app) | 💻 [GitHub](https://github.com/iamkhalidd) | 💼 [LinkedIn](https://www.linkedin.com/in/khalid-adebiyi-a99157174)
+■ Email: khalidadebiyi@gmail.com  
+■ Portfolio: https://khalidadebiyi.vercel.app  
+■ GitHub: https://github.com/iamkhalidd  
+■ LinkedIn: https://www.linkedin.com/in/khalid-adebiyi-a99157174
 
 ---
 
@@ -25,91 +28,91 @@ Versatile digital professional mastering the intersection of Cybersecurity, Pyth
 
 ## CERTIFICATIONS
 
-- ✅ Introduction to Cybersecurity - Cisco
-- ✅ Cybersecurity Essentials - Cisco
-- ✅ Endpoint Security - Cisco
-- ✅ Network Defense - Cisco
-- ✅ Cyber Threat Management - Cisco
-- ✅ Ethical Hacker - Cisco
-- ✅ Junior Cybersecurity Analyst Career Path - Cisco
-- ✅ Network Technician Career Path - Cisco
+• Introduction to Cybersecurity — Cisco  
+• Cybersecurity Essentials — Cisco  
+• Endpoint Security — Cisco  
+• Network Defense — Cisco  
+• Cyber Threat Management — Cisco  
+• Ethical Hacker — Cisco  
+• Junior Cybersecurity Analyst Career Path — Cisco  
+• Network Technician Career Path — Cisco
 
 ---
 
 ## PROFESSIONAL EXPERIENCE
 
 ### Freelance Developer & Security Consultant
-**Self-Employed / Upwork** | 2023 - Present
+**Self-Employed / Upwork** | 2023 – Present
 
-- Develop full-stack web applications using React, TypeScript, and Node.js
-- Build Python-based cybersecurity tools for network anomaly detection and phishing analysis
-- Create automated trading systems for cryptocurrency and forex markets
-- Design and deploy cloud infrastructure on AWS and Vercel
-- Provide penetration testing and security assessment services
+→ Develop full-stack web applications using React, TypeScript, and Node.js  
+→ Build Python-based cybersecurity tools for network anomaly detection and phishing analysis  
+→ Create automated trading systems for cryptocurrency and forex markets  
+→ Design and deploy cloud infrastructure on AWS and Vercel  
+→ Provide penetration testing and security assessment services
 
 ### Distribution Transformer Executive (DTE)
 **PIPLL (IBEDC)** | Previous
 
-- Managed distribution infrastructure and technical operations
-- Ensured power stability in assigned districts
-- Developed understanding of large-scale real-world infrastructure systems
+→ Managed distribution infrastructure and technical operations  
+→ Ensured power stability in assigned districts  
+→ Developed understanding of large-scale real-world infrastructure systems
 
 ### Accounts Department Staff
 **Standards Organization of Nigeria (SON)** | Previous
 
-- Managed financial records, reconciliation, and administrative accounting duties
-- Ensured regulatory compliance in financial processes
+→ Managed financial records, reconciliation, and administrative accounting duties  
+→ Ensured regulatory compliance in financial processes
 
 ### Administrative Officer
 **Debt Recovery Company** | Previous
 
-- Oversaw case file management and client communications
-- Managed general office administration
+→ Oversaw case file management and client communications  
+→ Managed general office administration
 
 ---
 
 ## KEY PROJECTS
 
-### 🔒 Cybersecurity Projects
+### ► CYBERSECURITY PROJECTS
 
-**Network Anomaly Detection System**
-- ML-powered network security tool detecting DDoS attacks and port scans in real-time
-- Technologies: Python, Scikit-learn, Pandas, Scapy, NetworkX
-- [GitHub](https://github.com/iamkhalidd/network_anomaly_detection_system)
+**Network Anomaly Detection System**  
+ML-powered network security tool detecting DDoS attacks and port scans in real-time  
+Technologies: Python, Scikit-learn, Pandas, Scapy, NetworkX  
+GitHub: https://github.com/iamkhalidd/network_anomaly_detection_system
 
-**Email Phishing Detector**
-- AI-powered email analysis with 89%+ confidence in detecting social engineering attacks
-- Technologies: Python, NLTK, Scikit-learn, BeautifulSoup
-- [GitHub](https://github.com/iamkhalidd/email-phishing-detector)
+**Email Phishing Detector**  
+AI-powered email analysis with 89%+ confidence in detecting social engineering attacks  
+Technologies: Python, NLTK, Scikit-learn, BeautifulSoup  
+GitHub: https://github.com/iamkhalidd/email-phishing-detector
 
-**Real-Time Fraud Detection System**
-- Financial transaction monitoring with ML-based anomaly detection and risk scoring
-- Technologies: Python, Pandas, Scikit-learn, FastAPI, Plotly
-- [GitHub](https://github.com/iamkhalidd/real_time_fraud_system)
+**Real-Time Fraud Detection System**  
+Financial transaction monitoring with ML-based anomaly detection and risk scoring  
+Technologies: Python, Pandas, Scikit-learn, FastAPI, Plotly  
+GitHub: https://github.com/iamkhalidd/real_time_fraud_system
 
-### 🌐 Full-Stack Applications
+### ► FULL-STACK APPLICATIONS
 
-**LunarLogix Express** - Global logistics platform with real-time shipment tracking
-- Technologies: React, TypeScript, Firebase, Tailwind CSS
-- [Live Demo](https://lunarlogix-express.vercel.app/) | [GitHub](https://github.com/iamkhalidd/lunarlogix-express)
+**LunarLogix Express** — Global logistics platform with real-time shipment tracking  
+Technologies: React, TypeScript, Firebase, Tailwind CSS  
+Live: https://lunarlogix-express.vercel.app/
 
-**Atelier ANJ** - Premium architecture firm website with client portal
-- Technologies: React, TypeScript, Firebase, Tailwind CSS
-- [Live Demo](https://atelier-anj.vercel.app/) | [GitHub](https://github.com/iamkhalidd/atelier-anj---architectural-workflow--1-)
+**Atelier ANJ** — Premium architecture firm website with client portal  
+Technologies: React, TypeScript, Firebase, Tailwind CSS  
+Live: https://atelier-anj.vercel.app/
 
-**EventGO Platform** - Event management with ticketing and QR check-in
-- Technologies: React, TypeScript, Node.js, PostgreSQL
-- [GitHub](https://github.com/iamkhalidd/EVENTGO)
+**EventGO Platform** — Event management with ticketing and QR check-in  
+Technologies: React, TypeScript, Node.js, PostgreSQL  
+GitHub: https://github.com/iamkhalidd/EVENTGO
 
-**NeuroQuant Pro** - AI-assisted trading analysis platform
-- Technologies: React, TypeScript, Gemini API, Firebase, Recharts
-- [GitHub](https://github.com/iamkhalidd/neuroquant-pro)
+**NeuroQuant Pro** — AI-assisted trading analysis platform  
+Technologies: React, TypeScript, Gemini API, Firebase, Recharts  
+GitHub: https://github.com/iamkhalidd/neuroquant-pro
 
-### 📈 Trading Systems
+### ► TRADING SYSTEMS
 
-**Algorithmic Trading Bots**
-- Automated trading systems for BTC, ETH, and XAU/USD with risk-controlled execution
-- Technologies: MQL5, Python, MetaTrader 5
+**Algorithmic Trading Bots**  
+Automated trading systems for BTC, ETH, and XAU/USD with risk-controlled execution  
+Technologies: MQL5, Python, MetaTrader 5
 
 ---
 
@@ -117,25 +120,26 @@ Versatile digital professional mastering the intersection of Cybersecurity, Pyth
 
 **Accounting and Finance** (Formal Education)
 
-**Self-Taught Technical Skills:**
-- Linux Administration & Cybersecurity
-- Python Programming & Automation
-- Cloud Computing (AWS)
-- Web Development (React, Node.js)
-- Algorithmic Trading
+**Self-Taught Technical Skills:**  
+• Linux Administration & Cybersecurity  
+• Python Programming & Automation  
+• Cloud Computing (AWS)  
+• Web Development (React, Node.js)  
+• Algorithmic Trading
 
 ---
 
 ## SERVICES OFFERED
 
-- 🔐 Penetration Testing & Security Assessments
-- 🐍 Python Automation & Backend Development  
-- 📊 Forex/Crypto Analysis & Algo Trading Bot Development
-- 💻 Full-Stack Web Application Development
-- ☁️ Cloud Infrastructure Setup (AWS, Docker)
-- 🎨 Digital Design & Branding
+► Penetration Testing & Security Assessments  
+► Python Automation & Backend Development  
+► Forex/Crypto Analysis & Algo Trading Bot Development  
+► Full-Stack Web Application Development  
+► Cloud Infrastructure Setup (AWS, Docker)  
+► Digital Design & Branding
 
 ---
 
 *Open to freelance opportunities, contract work, and full-time positions.*
-*Available on Upwork: [Hire Me](https://www.upwork.com/freelancers/~010dfac3d251b1a570)*
+
+**Upwork:** https://www.upwork.com/freelancers/~010dfac3d251b1a570

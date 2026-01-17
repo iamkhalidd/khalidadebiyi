@@ -266,6 +266,20 @@ export const PROJECT_DATA: Project[] = [
     featured: true,
     githubUrl: 'https://github.com/iamkhalidd/atelier-anj---architectural-workflow--1-',
     liveUrl: 'https://atelier-anj.vercel.app/'
+  },
+  {
+    id: 'specter',
+    title: 'SPECTER - Forensic Toolkit',
+    description: 'A powerful Python CLI tool for security professionals to accelerate forensic investigations.',
+    longDescription: 'SPECTER is a cross-platform cybersecurity forensic toolkit featuring file forensics (hash, entropy, YARA scanning), log analysis for attack detection, network forensics (PCAP analysis), threat intelligence (IP reputation, IOC scan), system analysis, and HTML/JSON report generation.',
+    challenge: 'Security professionals need comprehensive forensic tools that are fast, cross-platform, and can generate actionable reports during incident response.',
+    solution: 'Built a modular CLI toolkit with 7 core features: file forensics, log analysis, network forensics, threat intelligence, system analysis, report generation, and configurable settings.',
+    tags: ['Python', 'Cybersecurity', 'CLI', 'Forensics'],
+    techStack: ['Python', 'YARA', 'PCAP Analysis', 'Threat Intelligence APIs'],
+    imageUrl: '/projects/specter.png',
+    category: 'project',
+    featured: true,
+    githubUrl: 'https://github.com/iamkhalidd/specter'
   }
 ];
 
