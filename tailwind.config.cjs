@@ -2,36 +2,27 @@
 module.exports = {
     content: [
         "./index.html",
-        "./**/*.{js,ts,jsx,tsx}",
+        "./*.{ts,tsx}",
+        "./components/**/*.{ts,tsx}",
     ],
     theme: {
         extend: {
+            // Palette taken from the portrait: studio backdrop, suit, tie, shirt, plus one brass accent
             colors: {
-                cyber: {
-                    green: '#00ff41',
-                    dark: '#0d1117',
-                    gray: '#161b22',
-                    blue: '#58a6ff',
-                    accent: '#2ea043'
-                }
+                studio: '#5B5E62',
+                suit: '#26292E',
+                tie: '#1B2A4A',
+                'tie-2': '#24365C',
+                shirt: '#F4F4F2',
+                porcelain: '#E9EAEC',
+                mist: '#D6D9DE',
+                slate: '#5A5F68',
+                brass: '#B4925F',
             },
             fontFamily: {
-                mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', "Liberation Mono", "Courier New", 'monospace'],
-                sans: ['ui-sans-serif', 'system-ui', '-apple-system', "Segoe UI", 'Roboto', "Helvetica Neue", 'Arial', 'sans-serif']
-            },
-            animation: {
-                'fade-in': 'fadeIn 0.3s ease-out',
-                'fade-in-up': 'fadeInUp 0.5s ease-out',
-            },
-            keyframes: {
-                fadeIn: {
-                    '0%': { opacity: '0' },
-                    '100%': { opacity: '1' },
-                },
-                fadeInUp: {
-                    '0%': { opacity: '0', transform: 'translateY(10px)' },
-                    '100%': { opacity: '1', transform: 'translateY(0)' },
-                },
+                display: ['"Schibsted Grotesk"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                sans: ['Geist', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                mono: ['"Geist Mono"', 'ui-monospace', 'monospace'],
             },
         },
     },

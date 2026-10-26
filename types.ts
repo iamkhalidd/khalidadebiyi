@@ -1,3 +1,6 @@
+// The three things Khalid does. The whole site is tinted by the active one.
+export type Mode = 'break' | 'build' | 'trade';
+
 export interface Project {
   id: string;
   title: string;
@@ -6,6 +9,7 @@ export interface Project {
   imageUrl: string;
   link?: string;
   category?: 'project' | 'product' | 'wip';
+  modes: Mode[];
   // New fields for enhanced project display
   githubUrl?: string;
   liveUrl?: string;
@@ -29,6 +33,7 @@ export interface Service {
   title: string;
   description: string;
   icon: string; // We will map string names to Lucide icons in the component
+  mode: Mode;
 }
 
 export interface ChatMessage {

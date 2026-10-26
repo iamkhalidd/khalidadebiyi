@@ -1,4 +1,4 @@
-import { Experience, Project, SkillCategory, Service, Certification } from './types';
+import { Experience, Project, SkillCategory, Service, Certification, Mode } from './types';
 
 export const KHALID_BIO = `
 You are Khalid. Your journey into technology didn’t start with code — it started with curiosity.
@@ -12,11 +12,13 @@ Professional History:
 Technical Journey (Self-Taught):
 - Linux (Kali, Alpine), AWS, Cybersecurity, and Penetration Testing.
 - Python for automation and tool building.
+- Mobile apps for iOS and Android with React Native and Flutter.
 - Algorithmic Trading and Forex: leveraging finance background to design and test MT5 trading bots.
 
 Philosophy:
 - You don’t just study concepts; you build, test, break, and improve.
-- Focus: Cybersecurity, Software Development, Independent Digital Work.
+- Focus: Full-stack development: web apps, mobile apps and software solutions for businesses. Also cybersecurity and trading systems.
+- Current work: Senior full-stack developer on contract at AZM Nexus since May 2026, working on frontend, backend and cloud for the applications and business solutions they build. Still freelancing alongside it.
 - Goal: Building secure, intentional systems that actually work.
 `;
 
@@ -25,41 +27,61 @@ export const SERVICES_DATA: Service[] = [
     id: 'security',
     title: 'Cybersecurity & Digital Forensics',
     description: 'Penetration testing, vulnerability assessments, and forensic investigations using custom Python tools. From network anomaly detection to phishing analysis and incident response.',
-    icon: 'Shield'
+    icon: 'Shield',
+    mode: 'break'
   },
   {
     id: 'fullstack',
     title: 'Full-Stack Web Development',
     description: 'Modern web applications built with React, TypeScript, and Node.js. E-commerce platforms, client portals, booking systems, and logistics dashboards with responsive design.',
-    icon: 'Layers'
+    icon: 'Layers',
+    mode: 'build'
   },
   {
     id: 'python-tools',
     title: 'Python Security Tools & Automation',
     description: 'Custom CLI tools for security professionals: forensic toolkits, fraud detection systems, log analyzers, and automation scripts that save hours of manual work.',
-    icon: 'Terminal'
+    icon: 'Terminal',
+    mode: 'break'
   },
   {
     id: 'trading',
     title: 'Trading Systems & FinTech',
     description: 'Algorithmic trading bots for MT5, AI-powered market analysis platforms, real-time fraud detection, and financial risk management tools.',
-    icon: 'BarChart3'
+    icon: 'BarChart3',
+    mode: 'trade'
   },
   {
     id: 'saas',
     title: 'SaaS Product Development',
     description: 'End-to-end SaaS solutions: event management platforms, rental systems, logistics tracking, and architecture workflow tools with user authentication and admin dashboards.',
-    icon: 'Cpu'
+    icon: 'Cpu',
+    mode: 'build'
   },
   {
     id: 'cloud',
     title: 'Cloud & DevOps',
     description: 'AWS infrastructure setup, Docker containerization, Firebase integration, Vercel deployments, and Linux server administration (Kali, Alpine, Ubuntu).',
-    icon: 'Cloud'
+    icon: 'Cloud',
+    mode: 'build'
   }
 ];
 
 export const EXPERIENCE_DATA: Experience[] = [
+  {
+    id: '4',
+    role: 'Senior Full-stack Developer (Contract)',
+    company: 'AZM Nexus',
+    period: 'May 2026 – now',
+    description: 'Frontend, backend and cloud work on the applications and business solutions the team builds.'
+  },
+  {
+    id: '0',
+    role: 'Freelance Developer & Security Consultant',
+    company: 'Self-employed / Upwork',
+    period: '2023 – now',
+    description: 'Full-stack web apps in React, TypeScript and Node; Python security tools; automated trading systems; AWS and Vercel deployments; penetration testing and security assessments.'
+  },
   {
     id: '1',
     role: 'DTE (Distribution Transformer Executive)',
@@ -68,18 +90,18 @@ export const EXPERIENCE_DATA: Experience[] = [
     description: 'Managed distribution infrastructure, technical operations, and ensured power stability in assigned districts.'
   },
   {
-    id: '2',
-    role: 'Accounts Department Staff',
-    company: 'Standards Organization of Nigeria (SON)',
-    period: 'Past',
-    description: 'Managed financial records, reconciliation, and administrative accounting duties ensuring regulatory compliance.'
-  },
-  {
     id: '3',
     role: 'Administrative Officer',
     company: 'Debt Recovery Company',
     period: 'Past',
     description: 'Oversaw case file management, client communications, and general office administration.'
+  },
+  {
+    id: '2',
+    role: 'Accounts Department Staff',
+    company: 'Standards Organization of Nigeria (SON)',
+    period: 'Past',
+    description: 'Managed financial records, reconciliation, and administrative accounting duties ensuring regulatory compliance.'
   }
 ];
 
@@ -95,6 +117,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Vercel'],
     imageUrl: '/projects/lunarlogix.png',
     category: 'project',
+    modes: ['build'],
     featured: true,
     githubUrl: 'https://github.com/iamkhalidd/lunarlogix-express',
     liveUrl: 'https://lunarlogix-express.vercel.app/'
@@ -110,6 +133,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Node.js'],
     imageUrl: '/projects/rentalnest-1.png',
     category: 'project',
+    modes: ['build'],
     featured: true,
     githubUrl: 'https://github.com/iamkhalidd/RentalNest',
     liveUrl: '#'
@@ -125,6 +149,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['React', 'TypeScript', 'Gemini API', 'Firebase', 'Recharts'],
     imageUrl: '/projects/neuroquant-2.png',
     category: 'project',
+    modes: ['trade', 'build'],
     featured: true,
     githubUrl: 'https://github.com/iamkhalidd/neuroquant-pro',
     liveUrl: '#'
@@ -140,6 +165,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['MQL5', 'Python', 'MetaTrader 5', 'Technical Analysis'],
     imageUrl: '/projects/mt5-bots.png',
     category: 'project',
+    modes: ['trade'],
     featured: true,
     githubUrl: 'https://github.com/iamkhalidd',
     liveUrl: '#'
@@ -155,6 +181,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['Python', 'Flask', 'REST APIs', 'Docker'],
     imageUrl: '/projects/security-api.png',
     category: 'project',
+    modes: ['break'],
     githubUrl: 'https://github.com/iamkhalidd'
   },
   {
@@ -168,6 +195,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['React', 'CSS', 'WhatsApp API'],
     imageUrl: '/projects/cake-store.png',
     category: 'project',
+    modes: ['build'],
     githubUrl: 'https://github.com/iamkhalidd/CyberSweet'
   },
   {
@@ -181,6 +209,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['Python', 'Bash', 'Linux', 'Docker'],
     imageUrl: '/projects/linux-automation.png',
     category: 'wip',
+    modes: ['break'],
     githubUrl: 'https://github.com/iamkhalidd'
   },
   {
@@ -192,6 +221,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['AI Prompts', 'Notion', 'Automation'],
     imageUrl: '/projects/ai-toolkit.png',
     category: 'product',
+    modes: ['build'],
     liveUrl: '#'
   },
   {
@@ -203,6 +233,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['Educational Content', 'PDF', 'Video'],
     imageUrl: '/projects/forex-toolkit.png',
     category: 'product',
+    modes: ['trade'],
     liveUrl: '#'
   },
   {
@@ -216,6 +247,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['Python', 'Scikit-learn', 'Pandas', 'Scapy', 'NetworkX'],
     imageUrl: '/projects/network-anomaly.png',
     category: 'project',
+    modes: ['break'],
     featured: true,
     githubUrl: 'https://github.com/iamkhalidd/network_anomaly_detection_system'
   },
@@ -230,6 +262,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['Python', 'NLTK', 'Scikit-learn', 'BeautifulSoup', 'DNS Libraries'],
     imageUrl: '/projects/phishing-detector.png',
     category: 'project',
+    modes: ['break'],
     githubUrl: 'https://github.com/iamkhalidd/email-phishing-detector'
   },
   {
@@ -243,6 +276,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['Python', 'Pandas', 'Scikit-learn', 'Plotly', 'FastAPI'],
     imageUrl: '/projects/fraud-detection.png',
     category: 'project',
+    modes: ['break', 'trade'],
     githubUrl: 'https://github.com/iamkhalidd/real_time_fraud_system'
   },
   {
@@ -256,6 +290,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'QR Code API'],
     imageUrl: '/projects/eventgo.png',
     category: 'project',
+    modes: ['build'],
     githubUrl: 'https://github.com/iamkhalidd/EVENTGO'
   },
   {
@@ -269,6 +304,7 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Vercel'],
     imageUrl: '/projects/atelier-anj.png',
     category: 'project',
+    modes: ['build'],
     featured: true,
     githubUrl: 'https://github.com/iamkhalidd/atelier-anj---architectural-workflow--1-',
     liveUrl: 'https://atelier-anj.vercel.app/'
@@ -284,34 +320,37 @@ export const PROJECT_DATA: Project[] = [
     techStack: ['Python', 'YARA', 'PCAP Analysis', 'Threat Intelligence APIs'],
     imageUrl: '/projects/specter.png',
     category: 'project',
+    modes: ['break'],
     featured: true,
     githubUrl: 'https://github.com/iamkhalidd/specter'
   }
 ];
 
 export const SKILLS_DATA = [
+  // Development
+  { name: 'React / TypeScript', category: SkillCategory.DEVELOPMENT, value: 85 },
+  { name: 'Node.js', category: SkillCategory.DEVELOPMENT, value: 75 },
+  { name: 'React Native', category: SkillCategory.DEVELOPMENT, value: 75 },
+  { name: 'Flutter', category: SkillCategory.DEVELOPMENT, value: 75 },
+  { name: 'Python', category: SkillCategory.DEVELOPMENT, value: 90 },
+  { name: 'REST APIs', category: SkillCategory.DEVELOPMENT, value: 80 },
+  // Cloud & DevOps
+  { name: 'Firebase', category: SkillCategory.CLOUD, value: 85 },
+  { name: 'AWS', category: SkillCategory.CLOUD, value: 70 },
+  { name: 'Docker', category: SkillCategory.CLOUD, value: 75 },
+  { name: 'Linux Admin', category: SkillCategory.CLOUD, value: 85 },
+  // Design
+  { name: 'Tailwind CSS', category: SkillCategory.DESIGN, value: 90 },
+  { name: 'UI/UX Design', category: SkillCategory.DESIGN, value: 75 },
+  // Trading & FinTech
+  { name: 'MQL5 / MT5', category: SkillCategory.TRADING, value: 85 },
+  { name: 'Technical Analysis', category: SkillCategory.TRADING, value: 90 },
+  { name: 'Algo Trading', category: SkillCategory.TRADING, value: 80 },
   // Cybersecurity
   { name: 'Kali Linux', category: SkillCategory.CYBERSECURITY, value: 90 },
   { name: 'Penetration Testing', category: SkillCategory.CYBERSECURITY, value: 85 },
   { name: 'Digital Forensics', category: SkillCategory.CYBERSECURITY, value: 80 },
   { name: 'Network Security', category: SkillCategory.CYBERSECURITY, value: 85 },
-  // Development
-  { name: 'Python', category: SkillCategory.DEVELOPMENT, value: 90 },
-  { name: 'React / TypeScript', category: SkillCategory.DEVELOPMENT, value: 85 },
-  { name: 'Node.js', category: SkillCategory.DEVELOPMENT, value: 75 },
-  { name: 'REST APIs', category: SkillCategory.DEVELOPMENT, value: 80 },
-  // Cloud & DevOps
-  { name: 'AWS', category: SkillCategory.CLOUD, value: 70 },
-  { name: 'Docker', category: SkillCategory.CLOUD, value: 75 },
-  { name: 'Firebase', category: SkillCategory.CLOUD, value: 85 },
-  { name: 'Linux Admin', category: SkillCategory.CLOUD, value: 85 },
-  // Trading & FinTech
-  { name: 'MQL5 / MT5', category: SkillCategory.TRADING, value: 85 },
-  { name: 'Technical Analysis', category: SkillCategory.TRADING, value: 90 },
-  { name: 'Algo Trading', category: SkillCategory.TRADING, value: 80 },
-  // Design
-  { name: 'UI/UX Design', category: SkillCategory.DESIGN, value: 75 },
-  { name: 'Tailwind CSS', category: SkillCategory.DESIGN, value: 90 },
 ];
 
 // Add your certifications here - replace placeholders with your actual credentials
@@ -341,3 +380,54 @@ export const CERTIFICATIONS_DATA: Certification[] = [
   },
   // Add more certifications as needed
 ];
+export interface ModeInfo {
+  id: Mode;
+  verb: string;
+  field: string;
+  blurb: string;
+  skillCategories: SkillCategory[];
+}
+
+// Development leads; finance and security support it. The order here is the order on the page.
+export const MODES: ModeInfo[] = [
+  {
+    id: 'build',
+    verb: 'build',
+    field: 'Web apps',
+    blurb: 'React and TypeScript front ends with Node and Firebase behind them, shipped on Vercel or AWS. Logistics, rentals, events, an architecture studio.',
+    skillCategories: [SkillCategory.DEVELOPMENT, SkillCategory.CLOUD, SkillCategory.DESIGN]
+  },
+  {
+    id: 'trade',
+    verb: 'trade',
+    field: 'Finance tools',
+    blurb: 'An accounting and finance background turned into MT5 bots, risk rules and an AI trading journal. Logic first, emotion out.',
+    skillCategories: [SkillCategory.TRADING]
+  },
+  {
+    id: 'break',
+    verb: 'break',
+    field: 'Security',
+    blurb: 'I test systems the way an attacker would, then write the Python tools that catch it next time: forensics, phishing detection, network anomalies.',
+    skillCategories: [SkillCategory.CYBERSECURITY]
+  }
+];
+
+export const CREDLY_BADGE_IDS = [
+  '9ab7f516-bba1-4ba0-89e9-2a9b7bc2ae49',
+  '8ad52b68-583c-44fa-ad56-5c9a80600004',
+  '110b554f-e0e9-4140-a644-7d60a7579022',
+  '6ccb2a57-001c-4184-aeb0-e3dc60b8f0a9',
+  'b83f5cb1-ab6d-4db1-9ba1-e611aa37c185',
+  'bd747121-20ea-4ec6-8045-3d23d328e4aa',
+  '8a4fb54e-f21b-4f36-bf44-41b1e42a69a1',
+  'b086082d-591f-444f-8416-3f83ca930fc2'
+];
+
+export const CONTACT = {
+  email: 'khalidadebiyi@gmail.com',
+  github: 'https://github.com/iamkhalidd',
+  linkedin: 'https://www.linkedin.com/in/khalid-adebiyi-a99157174',
+  upwork: 'https://www.upwork.com/freelancers/~010dfac3d251b1a570',
+  cv: '/Khalid-Adebiyi-CV.md'
+};

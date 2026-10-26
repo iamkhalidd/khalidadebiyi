@@ -1,9 +1,14 @@
 import { GoogleGenAI } from "@google/genai";
 import { KHALID_BIO } from '../constants';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// Created on first use, so a missing key only disables the chat instead of crashing the page
+let ai: GoogleGenAI | null = null;
 
 export const sendMessageToGemini = async (history: string[], userMessage: string): Promise<string> => {
+  if (!process.env.API_KEY) {
+    return "The assistant isn't connected right now. Use the contact form and Khalid will reply directly.";
+  }
+  ai ??= new GoogleGenAI({ apiKey: process.env.API_KEY });
   try {
     // Upgraded to gemini-3-flash-preview for latest capabilities
     const model = 'gemini-3-flash-preview';
@@ -35,6 +40,6 @@ export const sendMessageToGemini = async (history: string[], userMessage: string
     return response.text || "I apologize, I couldn't process that request right now.";
   } catch (error) {
     console.error("Gemini API Error:", error);
-    return "System error: Unable to reach neural core. Please try again later.";
+    return "I couldn't reach the assistant just now. Try again, or use the contact form.";
   }
 };

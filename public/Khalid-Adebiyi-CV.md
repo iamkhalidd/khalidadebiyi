@@ -41,6 +41,11 @@ Versatile digital professional mastering the intersection of Cybersecurity, Pyth
 
 ## PROFESSIONAL EXPERIENCE
 
+### Senior Full-stack Developer (Contract)
+**AZM Nexus** | May 2026 – Present
+
+→ Work across frontend, backend and cloud on the company's applications and business solutions
+
 ### Freelance Developer & Security Consultant
 **Self-Employed / Upwork** | 2023 – Present
 

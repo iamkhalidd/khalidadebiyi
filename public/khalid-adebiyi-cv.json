@@ -60,6 +60,14 @@
     ],
     "experience": [
         {
+            "role": "Senior Full-stack Developer (Contract)",
+            "company": "AZM Nexus",
+            "period": "May 2026 - Present",
+            "responsibilities": [
+                "Work across frontend, backend and cloud on the company's applications and business solutions"
+            ]
+        },
+        {
             "role": "Freelance Developer & Security Consultant",
             "company": "Self-Employed / Upwork",
             "period": "2023 - Present",
